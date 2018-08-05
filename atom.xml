@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XoneStar&#39;s Bolg</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://XoneStar.github.io/"/>
+  <updated>2018-08-05T10:32:10.258Z</updated>
+  <id>http://XoneStar.github.io/</id>
+  
+  <author>
+    <name>XoneStar(jxz)</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Navicat Premium 12 破解教程</title>
+    <link href="http://XoneStar.github.io/2018/08/04/Navicat%20Premium%2012%20%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://XoneStar.github.io/2018/08/04/Navicat Premium 12 破解/</id>
+    <published>2018-08-04T15:06:04.197Z</published>
+    <updated>2018-08-05T10:32:10.258Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Navicat-Premium-12下载安装"><a href="#Navicat-Premium-12下载安装" class="headerlink" title="Navicat Premium 12下载安装"></a>Navicat Premium 12下载安装</h3><p>下载地址：<a href="https://www.navicat.com.cn/download/navicat-premium" target="_blank" rel="noopener">https://www.navicat.com.cn/download/navicat-premium</a></p><h3 id="破解工具下载"><a href="#破解工具下载" class="headerlink" title="破解工具下载"></a>破解工具下载</h3><p>下载地址：<a href="https://github.com/DoubleLabyrinth/navicat-keygen/releases" target="_blank" rel="noopener">https://github.com/DoubleLabyrinth/navicat-keygen/releases</a></p><p>解压后，<code>cmd命令行</code>进入工具目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; navicat-patcher <span class="string">"D:\Program Files\PremiumSoft\Navicat Premium 12"</span> RegPrivateKey.pem</span><br></pre></td></tr></table></figure><p>注：命令的参数是<code>Navicat Premium 12</code>的安装目录。若为<code>powershell</code>请在命令最前面加<code>.\</code></p><p><img src="1.png" alt=""></p><p>然后执行命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; navicat-keygen.exe RegPrivateKey.pem</span><br></pre></td></tr></table></figure><p><img src="2.png" alt=""></p><p>输入了<code>Your organization</code>项后回车后暂时停止输入，打开安装好的<code>Navicat Premium 12</code>，然后<strong>断开所有网络连接</strong>，点击<code>帮助</code> &gt; <code>注册</code>，然后将工具生成的密钥<code>SnKey</code>的值输入<code>注册</code>弹窗的<code>键</code>那一项，再点<code>激活</code>。</p><p><img src="3.png" alt=""></p><p>然后弹窗再点击<code>手动激活</code></p><p><img src="4.png" alt=""></p><p>再将<code>手动激活弹窗</code>的<code>请求码</code>输入工具运行<code>待输入</code>项的位置</p><p><img src="5.png" alt=""></p><p><img src="6.png" alt=""></p><p>最后将工具生成的注册码输入<code>手动激活</code>弹窗的<code>激活码</code>一栏，点击<code>激活</code>即可完成破解了。</p><p><img src="7.png" alt=""></p><p><strong>友情提示：navicat-keygen 激活需要适配Navicat Premium的版本，不同的版本无法激活。激活后也不要升级更新，升级更新后将不再是激活状态，需要重新激活。新版本激活需要等到破解工具作者出了新的破解工具才能激活。</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Navicat-Premium-12下载安装&quot;&gt;&lt;a href=&quot;#Navicat-Premium-12下载安装&quot; class=&quot;headerlink&quot; title=&quot;Navicat Premium 12下载安装&quot;&gt;&lt;/a&gt;Navicat Premium 12下载
+      
+    
+    </summary>
+    
+      <category term="hacker" scheme="http://XoneStar.github.io/categories/hacker/"/>
+    
+    
+      <category term="破解工具" scheme="http://XoneStar.github.io/tags/%E7%A0%B4%E8%A7%A3%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="Navicat Premium" scheme="http://XoneStar.github.io/tags/Navicat-Premium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python 作用域</title>
+    <link href="http://XoneStar.github.io/2018/08/04/Python%20Learning/"/>
+    <id>http://XoneStar.github.io/2018/08/04/Python Learning/</id>
+    <published>2018-08-04T15:06:04.197Z</published>
+    <updated>2018-08-05T10:32:12.363Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>块级作用域（python中没有块级作用域，代码块里的变量，外部可以调用 ）</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>, <span class="number">10</span>):</span><br><span class="line">    age = i</span><br><span class="line">print(age)</span><br><span class="line"></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line"><span class="number">9</span></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br></pre></td></tr></table></figure><blockquote><p>局部作用域（python 函数内的变量，无法在外部进行调用）</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">()</span>:</span></span><br><span class="line">    name = <span class="string">"python"</span></span><br><span class="line">print(name)</span><br><span class="line"></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line">NameError: name <span class="string">'name'</span> <span class="keyword">is</span> <span class="keyword">not</span> defined</span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br></pre></td></tr></table></figure><blockquote><p>作用域链(Python中有作用域链，变量会由内到外找)</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">"C"</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f1</span><span class="params">()</span>:</span></span><br><span class="line">    name = <span class="string">"JAVA"</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">f2</span><span class="params">()</span>:</span></span><br><span class="line">        name = <span class="string">"python"</span></span><br><span class="line">        print(name)</span><br><span class="line">    f2()</span><br><span class="line">f1()</span><br><span class="line"></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line">python</span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br></pre></td></tr></table></figure><blockquote><p>综合例子</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">### 例子1</span></span><br><span class="line">name = <span class="string">"C"</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f1</span><span class="params">()</span>:</span></span><br><span class="line">    print(name)</span><br><span class="line">    </span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f2</span><span class="params">()</span>:</span></span><br><span class="line">    name = <span class="string">"Python"</span>  <span class="comment"># 函数的局部变量不影响外部变量的值</span></span><br><span class="line">    f1()</span><br><span class="line">    </span><br><span class="line">f2()</span><br><span class="line"></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line">C</span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">### 例子2</span></span><br><span class="line">name = <span class="string">"C"</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f1</span><span class="params">()</span>:</span></span><br><span class="line">    print(name)</span><br><span class="line">    </span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f2</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">global</span> name    <span class="comment"># 函数的局部变量加global修饰符，表示全局变量，修改值就会影响外部变量的值</span></span><br><span class="line">    name = <span class="string">"Python"</span></span><br><span class="line">    f1()</span><br><span class="line">    </span><br><span class="line">f2()</span><br><span class="line"></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line">Python</span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">### 例子3</span></span><br><span class="line">li = [<span class="keyword">lambda</span>: x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">10</span>)]</span><br><span class="line">print(type(li))</span><br><span class="line">print(type(li[<span class="number">0</span>]))</span><br><span class="line"></span><br><span class="line"><span class="comment">### 运行结果 ###</span></span><br><span class="line">&lt;<span class="class"><span class="keyword">class</span> '<span class="title">list</span>'&gt;</span></span><br><span class="line"><span class="class">&lt;<span class="title">class</span> '<span class="title">function</span>'&gt;</span></span><br><span class="line"><span class="class">### 运行结果 ###</span></span><br><span class="line"><span class="class">解析：<span class="title">li</span> 是一个函数列表，列表中的每一项都是一个函数</span></span><br><span class="line"><span class="class"></span></span><br><span class="line">li = [lambda: x for x in range(0,10)]</span><br><span class="line">相当于：</span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">10</span>):</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">()</span>:</span></span><br><span class="line"><span class="keyword">return</span> x</span><br><span class="line">li.append(func)</span><br><span class="line">经过循环，x的值为<span class="number">9</span>，列表中的每一个函数都是</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">()</span>:</span></span><br><span class="line"><span class="keyword">return</span> x</span><br><span class="line">所以列表中每一个函数返回的都是<span class="number">9.</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;块级作用域（python中没有块级作用域，代码块里的变量，外部可以调用 ）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="http://XoneStar.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://XoneStar.github.io/tags/Python/"/>
+    
+      <category term="变量作用域" scheme="http://XoneStar.github.io/tags/%E5%8F%98%E9%87%8F%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>inet_ntoa 使用注意事项</title>
+    <link href="http://XoneStar.github.io/2018/08/04/inet_ntoa%20%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>http://XoneStar.github.io/2018/08/04/inet_ntoa 使用注意事项/</id>
+    <published>2018-08-04T15:06:04.138Z</published>
+    <updated>2018-08-05T10:32:08.258Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>这是一个在解析IP协议的一个场景下的遇到的问题</p></blockquote><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> *ip_src_str = inet_ntoa(ip-&gt;ip_src);</span><br><span class="line"><span class="keyword">char</span> *ip_dst_str = inet_ntoa(ip-&gt;ip_dst);</span><br><span class="line"><span class="built_in">snprintf</span>(ip_port, <span class="keyword">sizeof</span>(ip_port), <span class="string">"\"remote_addr\":\"%s\",\"target_addr\":\"%s\","</span>, ip_src_str,</span><br><span class="line">                     ip_dst_str); <span class="comment">// 此处打印的IP地址是一样的都为ip_dst_str。</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/*inet_ntoa返回一个char *,而这个char *的空间是在inet_ntoa里面静态分配的，所以inet_ntoa后面的调用会覆盖上一次的调用。</span></span><br><span class="line"><span class="comment">所以两次取值是取到最后一次的值。解决方案，将每次取到的值进行赋值备份。</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">char</span> ip_src_str[<span class="number">16</span>];</span><br><span class="line"><span class="built_in">snprintf</span>(ip_src_str, <span class="keyword">sizeof</span>(ip_src_str), <span class="string">"%s"</span>, inet_ntoa(ip-&gt;ip_src));</span><br><span class="line"><span class="keyword">char</span> ip_dst_str[<span class="number">16</span>];</span><br><span class="line"><span class="built_in">snprintf</span>(ip_dst_str, <span class="keyword">sizeof</span>(ip_dst_str), <span class="string">"%s"</span>, inet_ntoa(ip-&gt;ip_dst));</span><br><span class="line"><span class="built_in">snprintf</span>(ip_port, <span class="keyword">sizeof</span>(ip_port), <span class="string">"\"remote_addr\":\"%s\",\"target_addr\":\"%s\","</span>, ip_src_str,</span><br><span class="line">                     ip_dst_str);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;这是一个在解析IP协议的一个场景下的遇到的问题&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="C" scheme="http://XoneStar.github.io/categories/C/"/>
+    
+    
+      <category term="C" scheme="http://XoneStar.github.io/tags/C/"/>
+    
+      <category term="inet_ntoa" scheme="http://XoneStar.github.io/tags/inet-ntoa/"/>
+    
+  </entry>
+  
+</feed>
